@@ -33,7 +33,7 @@ class Runner:
         fig.suptitle(f"args = ['{self.file_name}','{self.index_col}','{self.start_date}','{self.end_date}','{self.start_col}','{self.end_col}']\n"
                      '\n'
                      'I certify that this program is my own work\n'
-                     'and is not the work of others. I agree\n', horizontalalignment='center')
+                     'and is not the work of others.\n', horizontalalignment='center')
 
 
         plt.tight_layout()
